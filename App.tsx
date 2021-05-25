@@ -92,7 +92,7 @@ class App extends Component  {
           />
         </View>
 
-       <Button title='save' onPress={this.handleSave} color='#9133F0'> Ekle</Button>
+       <Button title='Kaydet' onPress={this.handleSave} color='#9133F0'> Ekle</Button>
        <View style={styles.container}>
         <Table borderStyle={{borderWidth: 2, borderColor: '#c8e1ff'}}>
           <Row data={this.state.tableHead} style={styles.head} textStyle={styles.table_text}/>
